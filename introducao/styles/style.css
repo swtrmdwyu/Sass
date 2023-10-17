@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+}
+.container .container__left {
+  align-items: center;
+  background-color: #8d65c5;
+  color: #6b438b;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.container .container__left .text {
+  font-family: "Noto Sans SC", sans-serif;
+  font-size: 7rem;
+  font-weight: 700;
+}
+.container .container__right {
+  align-items: center;
+  background-color: #fcd53f;
+  color: #ff822d;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.container .container__right .text {
+  font-family: "Noto Sans SC", sans-serif;
+  font-size: 7rem;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
