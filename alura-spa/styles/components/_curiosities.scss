@@ -1,0 +1,21 @@
+@import '../abstract/variables';
+
+#curiosities {
+    margin-top: 5rem;
+    text-align: center;
+    .text {
+        h3 {
+            color: $tertiary-color;
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin-bottom: 20px;
+            margin-top: 25px;
+            text-transform: uppercase;
+        }
+        h4, p {
+            color: $primary-color;
+            font-size: 1rem;
+            font-weight: 300;
+        }
+    }
+}

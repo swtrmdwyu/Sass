@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap');
+
+// cores
+$moon-primary-color: #8d65c5;
+$moon-secondary-color: #6b438b;
+$sun-primary-color: #fcd53f;
+$sun-secondary-color: #ff822d;
+
+// fontes
+$principal-font: 'Noto Sans SC', sans-serif;
+
+@mixin reset {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin containerSides($backgorund, $text) {
+    align-items: center;     
+        background-color: $backgorund;
+        color: $text;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        .text {
+            font-family: $principal-font;
+            font-size: 7rem;
+            font-weight: 700;
+        }
+}
+
+* {
+    @include reset();
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    .container__left {
+        @include containerSides($moon-primary-color, $moon-secondary-color);
+    }
+
+    .container__right {
+        @include containerSides($sun-primary-color, $sun-secondary-color);
+    }
+}

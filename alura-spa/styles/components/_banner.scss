@@ -1,0 +1,25 @@
+@import '../abstract/variables';
+
+.banner {
+    align-items: center;
+    background: url('../imagens/banner.jpeg') 27% center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    min-height: 350px;
+    opacity: 0.9;
+    .inner-banner {
+        background-color: white;
+        border-radius: 10px;
+        padding: 5rem;
+        opacity: 0.8;
+        h1 {
+            font-size: $title-size;
+            font-weight: 700;
+            color: $quatiary-color;
+        }
+        h2 {
+            font-size: 1rem;
+        }
+    }
+}

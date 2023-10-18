@@ -1,0 +1,19 @@
+@import '../abstract/variables';
+
+// @mixin bg-colors($side, $colors...) {
+//     @if $lado == left {
+//         background: linear-gradient(to left, $colors)
+//     } @else {
+//         background: linear-gradient(to right, $colors);
+//     }   
+// }
+
+footer {
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 1.25rem;
+    i {
+        color: red;
+    }
+    //@include bg-colors(side, color1, color2, color3)
+}
